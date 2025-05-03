@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Projects on Volodymyr | EE Student &amp; Tech Enthusiast</title><link>https://vstimeless.github.io/VSPBlog/projects/</link><description>Recent content in Projects on Volodymyr | EE Student &amp; Tech Enthusiast</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 15 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://vstimeless.github.io/VSPBlog/projects/index.xml" rel="self" type="application/rss+xml"/><item><title>Smart Home Monitoring System</title><link>https://vstimeless.github.io/VSPBlog/projects/smart-home-monitoring/</link><pubDate>Fri, 15 Dec 2023 00:00:00 +0000</pubDate><guid>https://vstimeless.github.io/VSPBlog/projects/smart-home-monitoring/</guid><description>&lt;h1 id="smart-home-monitoring-system">Smart Home Monitoring System&lt;/h1>
+&lt;h2 id="overview">Overview&lt;/h2>
+&lt;p>This project is a comprehensive smart home monitoring system that allows users to track temperature, humidity, motion, and energy usage throughout their home. The system uses a network of IoT sensors connected to a central hub, with data visualization through a web dashboard.&lt;/p>
+&lt;h2 id="features">Features&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Multi-sensor Integration&lt;/strong>: Collects data from temperature, humidity, motion, and power consumption sensors.&lt;/li>
+&lt;li>&lt;strong>Real-time Monitoring&lt;/strong>: View current conditions in your home from anywhere.&lt;/li>
+&lt;li>&lt;strong>Historical Data&lt;/strong>: Track patterns and trends over time with stored historical data.&lt;/li>
+&lt;li>&lt;strong>Alerts and Notifications&lt;/strong>: Receive alerts when readings exceed defined thresholds.&lt;/li>
+&lt;li>&lt;strong>Energy Optimization&lt;/strong>: Analyze energy usage patterns to identify potential savings.&lt;/li>
+&lt;/ul>
+&lt;h2 id="technical-details">Technical Details&lt;/h2>
+&lt;h3 id="hardware-components">Hardware Components&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Sensors&lt;/strong>: DHT22 (temperature/humidity), PIR (motion), and current sensors&lt;/li>
+&lt;li>&lt;strong>Microcontrollers&lt;/strong>: ESP32 modules for wireless communication&lt;/li>
+&lt;li>&lt;strong>Central Hub&lt;/strong>: Raspberry Pi 4 running Node.js server&lt;/li>
+&lt;/ul>
+&lt;h3 id="software-stack">Software Stack&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Backend&lt;/strong>: Node.js with Express, MongoDB for data storage&lt;/li>
+&lt;li>&lt;strong>Communication&lt;/strong>: MQTT protocol for device communication&lt;/li>
+&lt;li>&lt;strong>Frontend&lt;/strong>: React.js dashboard with Chart.js for data visualization&lt;/li>
+&lt;li>&lt;strong>Authentication&lt;/strong>: JWT-based authentication system&lt;/li>
+&lt;/ul>
+&lt;h2 id="development-process">Development Process&lt;/h2>
+&lt;p>The development involved several key phases:&lt;/p></description></item><item><title>Smart Home Controller</title><link>https://vstimeless.github.io/VSPBlog/projects/smart-home-controller/</link><pubDate>Fri, 15 Sep 2023 00:00:00 +0000</pubDate><guid>https://vstimeless.github.io/VSPBlog/projects/smart-home-controller/</guid><description>&lt;h1 id="smart-home-controller">Smart Home Controller&lt;/h1>
+&lt;h2 id="project-overview">Project Overview&lt;/h2>
+&lt;p>This project aims to create a centralized controller for various smart home devices, integrating both commercial and DIY solutions into a single, user-friendly interface. The controller uses an ESP32 microcontroller as its brain, communicating with devices via multiple protocols including WiFi, Bluetooth, Zigbee (using a CC2531 adapter), and 433MHz RF.&lt;/p>
+&lt;h2 id="features">Features&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Multi-Protocol Support&lt;/strong>: Control devices using different communication standards&lt;/li>
+&lt;li>&lt;strong>Local Processing&lt;/strong>: Primary functions work without internet connection&lt;/li>
+&lt;li>&lt;strong>Custom PCB Design&lt;/strong>: Compact, efficient circuit design with expansion capabilities&lt;/li>
+&lt;li>&lt;strong>Intuitive Interface&lt;/strong>: Mobile app and physical controls for ease of use&lt;/li>
+&lt;li>&lt;strong>Voice Control Integration&lt;/strong>: Works with popular voice assistants&lt;/li>
+&lt;li>&lt;strong>Energy Monitoring&lt;/strong>: Tracks power usage of connected devices&lt;/li>
+&lt;/ul>
+&lt;h2 id="technical-details">Technical Details&lt;/h2>
+&lt;p>The system architecture consists of several key components:&lt;/p></description></item></channel></rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blogs on Volodymyr | EE Student &amp; Tech Enthusiast</title><link>https://vstimeless.github.io/VSPBlog/blog/</link><description>Recent content in Blogs on Volodymyr | EE Student &amp; Tech Enthusiast</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 05 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://vstimeless.github.io/VSPBlog/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Getting Started with FPGAs: A Beginner's Guide</title><link>https://vstimeless.github.io/VSPBlog/blog/getting-started-with-fpgas/</link><pubDate>Sun, 05 Nov 2023 00:00:00 +0000</pubDate><guid>https://vstimeless.github.io/VSPBlog/blog/getting-started-with-fpgas/</guid><description>&lt;h1 id="getting-started-with-fpgas-a-beginners-guide">Getting Started with FPGAs: A Beginner&amp;rsquo;s Guide&lt;/h1>
+&lt;p>Field-Programmable Gate Arrays (FPGAs) are fascinating devices that offer a level of hardware flexibility that traditional microcontrollers can&amp;rsquo;t match. In this post, I&amp;rsquo;ll share my journey into the world of FPGAs and provide some guidance for fellow beginners.&lt;/p>
+&lt;h2 id="what-is-an-fpga">What is an FPGA?&lt;/h2>
+&lt;p>An FPGA is an integrated circuit designed to be configured after manufacturing. Unlike microcontrollers that run software sequentially, FPGAs allow you to create actual digital circuits that operate in parallel. This makes them perfect for applications requiring high-speed processing or parallel operations.&lt;/p></description></item><item><title>Introduction to Embedded Systems</title><link>https://vstimeless.github.io/VSPBlog/blog/introduction-to-embedded-systems/</link><pubDate>Tue, 10 Oct 2023 00:00:00 +0000</pubDate><guid>https://vstimeless.github.io/VSPBlog/blog/introduction-to-embedded-systems/</guid><description>&lt;h1 id="introduction-to-embedded-systems">Introduction to Embedded Systems&lt;/h1>
+&lt;p>Embedded systems are specialized computing systems that are designed to perform dedicated functions within a larger system. Unlike general-purpose computers, embedded systems are designed to perform specific tasks with real-time computing constraints.&lt;/p>
+&lt;h2 id="what-makes-embedded-systems-unique">What Makes Embedded Systems Unique?&lt;/h2>
+&lt;p>Embedded systems are characterized by several key features:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Task-Specific Design&lt;/strong>: They&amp;rsquo;re built to perform a specific function rather than being general-purpose machines&lt;/li>
+&lt;li>&lt;strong>Real-Time Constraints&lt;/strong>: Many embedded systems must respond to events within strict time limits&lt;/li>
+&lt;li>&lt;strong>Resource Constraints&lt;/strong>: They typically have limited memory, processing power, and energy availability&lt;/li>
+&lt;li>&lt;strong>Long-Term Reliability&lt;/strong>: Many are designed to run continuously for years without failure&lt;/li>
+&lt;/ul>
+&lt;h2 id="common-applications">Common Applications&lt;/h2>
+&lt;p>Embedded systems are everywhere in our daily lives:&lt;/p></description></item><item><title>My First Blog Post</title><link>https://vstimeless.github.io/VSPBlog/blog/first-post/</link><pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate><guid>https://vstimeless.github.io/VSPBlog/blog/first-post/</guid><description>&lt;h1 id="hello-world">Hello World!&lt;/h1>
+&lt;p>This is my first blog post on my new personal website. I&amp;rsquo;m excited to share my thoughts and projects with you.&lt;/p>
+&lt;h2 id="what-to-expect">What to Expect&lt;/h2>
+&lt;p>In this blog, I&amp;rsquo;ll be writing about:&lt;/p>
+&lt;ul>
+&lt;li>Electrical engineering projects&lt;/li>
+&lt;li>Programming and development&lt;/li>
+&lt;li>My learning journey&lt;/li>
+&lt;li>Tech reviews and opinions&lt;/li>
+&lt;/ul>
+&lt;p>Stay tuned for more content coming soon!&lt;/p></description></item></channel></rss>
