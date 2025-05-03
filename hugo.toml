@@ -1,4 +1,4 @@
-baseURL = "https://volodymyr.github.io/"
+baseURL = "https://vstimeless.github.io/VSPBlog/"
 languageCode = "en-us"
 title = "Volodymyr | EE Student & Tech Enthusiast"
 theme = "volodymyr-theme"
