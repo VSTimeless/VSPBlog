@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ .Title }}</title>
+    <meta charset="utf-8">
+    <meta http-equiv="refresh" content="0; url={{ .Params.url }}">
+    <script type="text/javascript">
+        window.location.href = "{{ .Params.url }}"
+    </script>
+</head>
+<body>
+    <p>If you are not redirected automatically, follow this <a href="{{ .Params.url }}">link</a>.</p>
+</body>
+</html> 

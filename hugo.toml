@@ -1,7 +1,30 @@
-baseURL = "https://vstimeless.github.io/VSPBlog/public/index.html"
+baseURL = "https://vstimeless.github.io/VSPBlog/"
 languageCode = "en-us"
 title = "Volodymyr | EE Student & Tech Enthusiast"
 theme = "volodymyr-theme"
+
+# Make About page the homepage
+[outputs]
+  home = ["HTML", "RSS"]
+  
+# Set the default landing page to About
+[params]
+  mainSections = ["about"]
+  # Site description
+  description = "Personal website of Volodymyr, an Electrical Engineering student with a passion for technology and innovation."
+  
+  # Social media links
+  github = "volodymyr"
+  linkedin = "volodymyr"
+  email = "volodymyr@example.com"
+  
+  # Theme colors
+  mainColor = "#3498db"
+  backgroundColor = "#ffffff"
+  textColor = "#333333"
+  
+  # Copyright notice
+  copyright = "© 2023 Volodymyr. All rights reserved." 
 
 # Enable syntax highlighting
 pygmentsCodeFences = true
@@ -39,20 +62,3 @@ pygmentsUseClasses = true
     name = "Contact"
     url = "/contact/"
     weight = 6
-
-[params]
-  # Site description
-  description = "Personal website of Volodymyr, an Electrical Engineering student with a passion for technology and innovation."
-  
-  # Social media links
-  github = "volodymyr"
-  linkedin = "volodymyr"
-  email = "volodymyr@example.com"
-  
-  # Theme colors
-  mainColor = "#3498db"
-  backgroundColor = "#ffffff"
-  textColor = "#333333"
-  
-  # Copyright notice
-  copyright = "© 2023 Volodymyr. All rights reserved." 
