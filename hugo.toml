@@ -1,0 +1,58 @@
+baseURL = "https://volodymyr.github.io/"
+languageCode = "en-us"
+title = "Volodymyr | EE Student & Tech Enthusiast"
+theme = "volodymyr-theme"
+
+# Enable syntax highlighting
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
+# Menu configuration
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 2
+  [[menu.main]]
+    identifier = "projects"
+    name = "Projects"
+    url = "/projects/"
+    weight = 3
+  [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/blog/"
+    weight = 4
+  [[menu.main]]
+    identifier = "interests"
+    name = "Interests"
+    url = "/interests/"
+    weight = 5
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    weight = 6
+
+[params]
+  # Site description
+  description = "Personal website of Volodymyr, an Electrical Engineering student with a passion for technology and innovation."
+  
+  # Social media links
+  github = "volodymyr"
+  linkedin = "volodymyr"
+  email = "volodymyr@example.com"
+  
+  # Theme colors
+  mainColor = "#3498db"
+  backgroundColor = "#ffffff"
+  textColor = "#333333"
+  
+  # Copyright notice
+  copyright = "© 2023 Volodymyr. All rights reserved." 

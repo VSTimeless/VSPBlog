@@ -1,0 +1,166 @@
+{{ define "main" }}
+<div class="section">
+    <h1 class="section-title">{{ .Title }}</h1>
+    
+    <div class="about-container">
+        <div class="about-sidebar">
+            <img src="{{ .Params.profileImage | default "/images/profile.jpg" }}" alt="Volodymyr" class="about-image">
+            
+            <div class="about-contact">
+                <h3>Contact</h3>
+                <ul class="contact-list">
+                    {{ with .Site.Params.email }}
+                    <li>
+                        <strong>Email:</strong>
+                        <a href="mailto:{{ . }}">{{ . }}</a>
+                    </li>
+                    {{ end }}
+                    
+                    {{ with .Site.Params.github }}
+                    <li>
+                        <strong>GitHub:</strong>
+                        <a href="https://github.com/{{ . }}" target="_blank" rel="noopener">{{ . }}</a>
+                    </li>
+                    {{ end }}
+                    
+                    {{ with .Site.Params.linkedin }}
+                    <li>
+                        <strong>LinkedIn:</strong>
+                        <a href="https://linkedin.com/in/{{ . }}" target="_blank" rel="noopener">{{ . }}</a>
+                    </li>
+                    {{ end }}
+                </ul>
+            </div>
+            
+            {{ if .Params.cv }}
+            <div class="cv-download">
+                <a href="{{ .Params.cv }}" class="btn btn-primary" download>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                    Download CV
+                </a>
+            </div>
+            {{ end }}
+        </div>
+        
+        <div class="about-content">
+            <div class="bio">
+                {{ .Content }}
+            </div>
+            
+            {{ if .Params.education }}
+            <div class="education-container">
+                <h2>Education</h2>
+                <ul class="education-list">
+                    {{ range .Params.education }}
+                    <li class="education-item">
+                        <h3>{{ .degree }}</h3>
+                        <p class="institution">{{ .institution }}</p>
+                        <p class="education-date">{{ .year }}</p>
+                        {{ with .description }}
+                        <p>{{ . }}</p>
+                        {{ end }}
+                    </li>
+                    {{ end }}
+                </ul>
+            </div>
+            {{ end }}
+            
+            {{ if .Params.skills }}
+            <div class="skills-container">
+                <h2>Skills</h2>
+                <div class="skills-list">
+                    {{ range .Params.skills }}
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">{{ .name }}</span>
+                            {{ if .level }}
+                            <span class="skill-level">{{ .level }}</span>
+                            {{ end }}
+                        </div>
+                        {{ if .level }}
+                        <div class="skill-progress">
+                            <div class="skill-bar" style="width: {{ .level }}%;"></div>
+                        </div>
+                        {{ end }}
+                    </div>
+                    {{ end }}
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</div>
+
+<style>
+.about-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: var(--spacing-lg);
+    margin-top: var(--spacing-lg);
+}
+
+.about-sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-md);
+}
+
+.about-image {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: var(--spacing-md);
+}
+
+.contact-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-list li {
+    margin-bottom: var(--spacing-sm);
+}
+
+.education-list {
+    list-style: none;
+    padding: 0;
+}
+
+.education-item {
+    margin-bottom: var(--spacing-lg);
+}
+
+.education-item h3 {
+    margin-top: 0;
+    margin-bottom: var(--spacing-sm);
+}
+
+.institution {
+    font-weight: 600;
+    margin-bottom: var(--spacing-sm);
+}
+
+.education-date {
+    color: #666;
+    margin-bottom: var(--spacing-sm);
+}
+
+.cv-download {
+    margin-top: var(--spacing-md);
+}
+
+@media (max-width: 768px) {
+    .about-container {
+        grid-template-columns: 1fr;
+    }
+    
+    .about-sidebar {
+        order: 2;
+    }
+    
+    .about-content {
+        order: 1;
+    }
+}
+</style>
+{{ end }} 

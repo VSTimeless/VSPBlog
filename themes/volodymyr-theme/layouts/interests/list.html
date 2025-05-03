@@ -1,0 +1,58 @@
+{{ define "main" }}
+<div class="section">
+    <h1 class="section-title">{{ .Title }}</h1>
+    
+    {{ if .Content }}
+    <div class="section-content">
+        {{ .Content }}
+    </div>
+    {{ end }}
+    
+    <div class="card-grid">
+        <div class="card">
+            <img src="/images/books.jpg" alt="Books" class="card-image">
+            <div class="card-content">
+                <h3 class="card-title">Books</h3>
+                <p class="card-description">Discover my favorite books and what I'm currently reading.</p>
+                <a href="/interests/books/" class="btn btn-secondary">Learn More</a>
+            </div>
+        </div>
+        
+        <div class="card">
+            <img src="/images/podcasts.jpg" alt="Podcasts" class="card-image">
+            <div class="card-content">
+                <h3 class="card-title">Podcasts</h3>
+                <p class="card-description">Podcasts that inspire and educate me on various topics.</p>
+                <a href="/interests/podcasts/" class="btn btn-secondary">Learn More</a>
+            </div>
+        </div>
+        
+        <div class="card">
+            <img src="/images/homelab.jpg" alt="Home Labbing" class="card-image">
+            <div class="card-content">
+                <h3 class="card-title">Home Labbing</h3>
+                <p class="card-description">My home lab setup and projects for experimenting with electronics.</p>
+                <a href="/interests/homelab/" class="btn btn-secondary">Learn More</a>
+            </div>
+        </div>
+        
+        <div class="card">
+            <img src="/images/gym.jpg" alt="Gym" class="card-image">
+            <div class="card-content">
+                <h3 class="card-title">Gym</h3>
+                <p class="card-description">My fitness journey, routines, and goals.</p>
+                <a href="/interests/gym/" class="btn btn-secondary">Learn More</a>
+            </div>
+        </div>
+        
+        <div class="card">
+            <img src="/images/photography.jpg" alt="Photography" class="card-image">
+            <div class="card-content">
+                <h3 class="card-title">Photography</h3>
+                <p class="card-description">A collection of my favorite shots and photography projects.</p>
+                <a href="/interests/photography/" class="btn btn-secondary">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+{{ end }} 

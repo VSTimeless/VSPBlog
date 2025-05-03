@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>IoT on Volodymyr | EE Student &amp; Tech Enthusiast</title>
+    <link>http://localhost:1313/tags/iot/</link>
+    <description>Recent content in IoT on Volodymyr | EE Student &amp; Tech Enthusiast</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 15 Sep 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/iot/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Smart Home Controller</title>
+      <link>http://localhost:1313/projects/smart-home-controller/</link>
+      <pubDate>Fri, 15 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/smart-home-controller/</guid>
+      <description>&lt;h1 id=&#34;smart-home-controller&#34;&gt;Smart Home Controller&lt;/h1&gt;&#xA;&lt;h2 id=&#34;project-overview&#34;&gt;Project Overview&lt;/h2&gt;&#xA;&lt;p&gt;This project aims to create a centralized controller for various smart home devices, integrating both commercial and DIY solutions into a single, user-friendly interface. The controller uses an ESP32 microcontroller as its brain, communicating with devices via multiple protocols including WiFi, Bluetooth, Zigbee (using a CC2531 adapter), and 433MHz RF.&lt;/p&gt;&#xA;&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Multi-Protocol Support&lt;/strong&gt;: Control devices using different communication standards&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Local Processing&lt;/strong&gt;: Primary functions work without internet connection&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Custom PCB Design&lt;/strong&gt;: Compact, efficient circuit design with expansion capabilities&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Intuitive Interface&lt;/strong&gt;: Mobile app and physical controls for ease of use&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Voice Control Integration&lt;/strong&gt;: Works with popular voice assistants&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Energy Monitoring&lt;/strong&gt;: Tracks power usage of connected devices&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;technical-details&#34;&gt;Technical Details&lt;/h2&gt;&#xA;&lt;p&gt;The system architecture consists of several key components:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

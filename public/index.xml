@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Volodymyr | EE Student &amp; Tech Enthusiast</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Volodymyr | EE Student &amp; Tech Enthusiast</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 15 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Electronics</title>
+      <link>http://localhost:1313/interests/electronics/</link>
+      <pubDate>Wed, 20 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/interests/electronics/</guid>
+      <description>&lt;h1 id=&#34;my-passion-for-electronics&#34;&gt;My Passion for Electronics&lt;/h1&gt;&#xA;&lt;p&gt;Electronics has been my passion since childhood when I first connected a battery to a small light bulb and witnessed the magic of electricity. That simple moment sparked a lifelong fascination with electronic systems.&lt;/p&gt;&#xA;&lt;h2 id=&#34;areas-of-interest&#34;&gt;Areas of Interest&lt;/h2&gt;&#xA;&lt;h3 id=&#34;circuit-design&#34;&gt;Circuit Design&lt;/h3&gt;&#xA;&lt;p&gt;I enjoy the process of designing circuits, from simple analog configurations to more complex digital systems. Understanding how components interact and creating efficient designs is both challenging and rewarding.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Smart Home Monitoring System</title>
+      <link>http://localhost:1313/projects/smart-home-monitoring/</link>
+      <pubDate>Fri, 15 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/smart-home-monitoring/</guid>
+      <description>&lt;h1 id=&#34;smart-home-monitoring-system&#34;&gt;Smart Home Monitoring System&lt;/h1&gt;&#xA;&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;This project is a comprehensive smart home monitoring system that allows users to track temperature, humidity, motion, and energy usage throughout their home. The system uses a network of IoT sensors connected to a central hub, with data visualization through a web dashboard.&lt;/p&gt;&#xA;&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Multi-sensor Integration&lt;/strong&gt;: Collects data from temperature, humidity, motion, and power consumption sensors.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Real-time Monitoring&lt;/strong&gt;: View current conditions in your home from anywhere.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Historical Data&lt;/strong&gt;: Track patterns and trends over time with stored historical data.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Alerts and Notifications&lt;/strong&gt;: Receive alerts when readings exceed defined thresholds.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Energy Optimization&lt;/strong&gt;: Analyze energy usage patterns to identify potential savings.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;technical-details&#34;&gt;Technical Details&lt;/h2&gt;&#xA;&lt;h3 id=&#34;hardware-components&#34;&gt;Hardware Components&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Sensors&lt;/strong&gt;: DHT22 (temperature/humidity), PIR (motion), and current sensors&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Microcontrollers&lt;/strong&gt;: ESP32 modules for wireless communication&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Central Hub&lt;/strong&gt;: Raspberry Pi 4 running Node.js server&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;software-stack&#34;&gt;Software Stack&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Backend&lt;/strong&gt;: Node.js with Express, MongoDB for data storage&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Communication&lt;/strong&gt;: MQTT protocol for device communication&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Frontend&lt;/strong&gt;: React.js dashboard with Chart.js for data visualization&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Authentication&lt;/strong&gt;: JWT-based authentication system&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;development-process&#34;&gt;Development Process&lt;/h2&gt;&#xA;&lt;p&gt;The development involved several key phases:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Getting Started with FPGAs: A Beginner&#39;s Guide</title>
+      <link>http://localhost:1313/blog/getting-started-with-fpgas/</link>
+      <pubDate>Sun, 05 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/getting-started-with-fpgas/</guid>
+      <description>&lt;h1 id=&#34;getting-started-with-fpgas-a-beginners-guide&#34;&gt;Getting Started with FPGAs: A Beginner&amp;rsquo;s Guide&lt;/h1&gt;&#xA;&lt;p&gt;Field-Programmable Gate Arrays (FPGAs) are fascinating devices that offer a level of hardware flexibility that traditional microcontrollers can&amp;rsquo;t match. In this post, I&amp;rsquo;ll share my journey into the world of FPGAs and provide some guidance for fellow beginners.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-is-an-fpga&#34;&gt;What is an FPGA?&lt;/h2&gt;&#xA;&lt;p&gt;An FPGA is an integrated circuit designed to be configured after manufacturing. Unlike microcontrollers that run software sequentially, FPGAs allow you to create actual digital circuits that operate in parallel. This makes them perfect for applications requiring high-speed processing or parallel operations.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Introduction to Embedded Systems</title>
+      <link>http://localhost:1313/blog/introduction-to-embedded-systems/</link>
+      <pubDate>Tue, 10 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/introduction-to-embedded-systems/</guid>
+      <description>&lt;h1 id=&#34;introduction-to-embedded-systems&#34;&gt;Introduction to Embedded Systems&lt;/h1&gt;&#xA;&lt;p&gt;Embedded systems are specialized computing systems that are designed to perform dedicated functions within a larger system. Unlike general-purpose computers, embedded systems are designed to perform specific tasks with real-time computing constraints.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-makes-embedded-systems-unique&#34;&gt;What Makes Embedded Systems Unique?&lt;/h2&gt;&#xA;&lt;p&gt;Embedded systems are characterized by several key features:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Task-Specific Design&lt;/strong&gt;: They&amp;rsquo;re built to perform a specific function rather than being general-purpose machines&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Real-Time Constraints&lt;/strong&gt;: Many embedded systems must respond to events within strict time limits&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Resource Constraints&lt;/strong&gt;: They typically have limited memory, processing power, and energy availability&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Long-Term Reliability&lt;/strong&gt;: Many are designed to run continuously for years without failure&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;common-applications&#34;&gt;Common Applications&lt;/h2&gt;&#xA;&lt;p&gt;Embedded systems are everywhere in our daily lives:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About Me</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;h2 id=&#34;hello-im-volodymyr&#34;&gt;Hello, I&amp;rsquo;m Volodymyr!&lt;/h2&gt;&#xA;&lt;p&gt;I&amp;rsquo;m an Electrical Engineering student passionate about creating innovative solutions through hardware and software integration. My journey in the world of electronics began when I was a child, taking apart old radios and trying to understand how they worked.&lt;/p&gt;&#xA;&lt;p&gt;Today, I&amp;rsquo;m focused on developing my skills in embedded systems, circuit design, and IoT applications. I believe that technology has the power to solve many of the world&amp;rsquo;s challenges, and I&amp;rsquo;m excited to be part of that solution.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Books</title>
+      <link>http://localhost:1313/interests/books/</link>
+      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/interests/books/</guid>
+      <description>&lt;h1 id=&#34;books-that-inspire-and-inform-me&#34;&gt;Books That Inspire and Inform Me&lt;/h1&gt;&#xA;&lt;p&gt;Reading has always been a cornerstone of my personal and professional development. Books offer a window into different worlds, perspectives, and knowledge domains. Here are some that have made a significant impact on my thinking:&lt;/p&gt;&#xA;&lt;h2 id=&#34;currently-reading&#34;&gt;Currently Reading&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;&amp;ldquo;The Pragmatic Programmer&amp;rdquo; by Andrew Hunt and David Thomas&lt;/strong&gt;&lt;br&gt;&#xA;A classic in software development that offers practical advice for improving as a programmer and problem solver.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;&amp;ldquo;The Innovators&amp;rdquo; by Walter Isaacson&lt;/strong&gt;&lt;br&gt;&#xA;An exploration of the people who created the computer and the internet, providing valuable historical context for modern technology.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Contact Me</title>
+      <link>http://localhost:1313/contact/</link>
+      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/contact/</guid>
+      <description>&lt;h2 id=&#34;get-in-touch&#34;&gt;Get In Touch&lt;/h2&gt;&#xA;&lt;p&gt;I&amp;rsquo;m always open to discussing new projects, opportunities, or just chatting about technology and engineering.&lt;/p&gt;&#xA;&lt;h3 id=&#34;direct-contact&#34;&gt;Direct Contact&lt;/h3&gt;&#xA;&lt;p&gt;The best way to reach me is through email at &lt;a href=&#34;mailto:volodymyr@example.com&#34;&gt;volodymyr@example.com&lt;/a&gt;. I usually respond within 24-48 hours.&lt;/p&gt;&#xA;&lt;h3 id=&#34;lets-connect&#34;&gt;Let&amp;rsquo;s Connect&lt;/h3&gt;&#xA;&lt;p&gt;If you&amp;rsquo;re interested in my work or have any questions, feel free to connect with me on social media or drop me a message using the form. I&amp;rsquo;m looking forward to hearing from you!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My First Blog Post</title>
+      <link>http://localhost:1313/blog/first-post/</link>
+      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/first-post/</guid>
+      <description>&lt;h1 id=&#34;hello-world&#34;&gt;Hello World!&lt;/h1&gt;&#xA;&lt;p&gt;This is my first blog post on my new personal website. I&amp;rsquo;m excited to share my thoughts and projects with you.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-to-expect&#34;&gt;What to Expect&lt;/h2&gt;&#xA;&lt;p&gt;In this blog, I&amp;rsquo;ll be writing about:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Electrical engineering projects&lt;/li&gt;&#xA;&lt;li&gt;Programming and development&lt;/li&gt;&#xA;&lt;li&gt;My learning journey&lt;/li&gt;&#xA;&lt;li&gt;Tech reviews and opinions&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Stay tuned for more content coming soon!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Photography</title>
+      <link>http://localhost:1313/interests/photography/</link>
+      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/interests/photography/</guid>
+      <description>&lt;h1 id=&#34;photography-capturing-technology-and-nature&#34;&gt;Photography: Capturing Technology and Nature&lt;/h1&gt;&#xA;&lt;p&gt;Photography has become a meaningful creative outlet that complements my engineering work. While I&amp;rsquo;m fascinated by the technical aspects of cameras, what truly draws me to photography is the opportunity to document both the technological world I study and the natural world that inspires so much innovation.&lt;/p&gt;&#xA;&lt;h2 id=&#34;my-photography-journey&#34;&gt;My Photography Journey&lt;/h2&gt;&#xA;&lt;p&gt;My interest in photography began as an extension of my engineering mindset. Understanding the optics, mechanics, and digital processing involved in modern cameras appealed to my technical curiosity. However, as I practiced more, I discovered that photography also exercises a different part of my brain—encouraging me to focus on aesthetics, composition, and storytelling.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Smart Home Controller</title>
+      <link>http://localhost:1313/projects/smart-home-controller/</link>
+      <pubDate>Fri, 15 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/smart-home-controller/</guid>
+      <description>&lt;h1 id=&#34;smart-home-controller&#34;&gt;Smart Home Controller&lt;/h1&gt;&#xA;&lt;h2 id=&#34;project-overview&#34;&gt;Project Overview&lt;/h2&gt;&#xA;&lt;p&gt;This project aims to create a centralized controller for various smart home devices, integrating both commercial and DIY solutions into a single, user-friendly interface. The controller uses an ESP32 microcontroller as its brain, communicating with devices via multiple protocols including WiFi, Bluetooth, Zigbee (using a CC2531 adapter), and 433MHz RF.&lt;/p&gt;&#xA;&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Multi-Protocol Support&lt;/strong&gt;: Control devices using different communication standards&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Local Processing&lt;/strong&gt;: Primary functions work without internet connection&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Custom PCB Design&lt;/strong&gt;: Compact, efficient circuit design with expansion capabilities&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Intuitive Interface&lt;/strong&gt;: Mobile app and physical controls for ease of use&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Voice Control Integration&lt;/strong&gt;: Works with popular voice assistants&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Energy Monitoring&lt;/strong&gt;: Tracks power usage of connected devices&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;technical-details&#34;&gt;Technical Details&lt;/h2&gt;&#xA;&lt;p&gt;The system architecture consists of several key components:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,22 @@
+<header class="site-header">
+    <div class="logo">
+        <a href="{{ .Site.BaseURL }}">Volodymyr</a>
+    </div>
+    
+    <nav class="main-nav">
+        <button class="menu-toggle" aria-label="Toggle Menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+        
+        <ul class="nav-links">
+            {{ $currentPage := . }}
+            {{ range .Site.Menus.main }}
+            <li class="{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
+                <a href="{{ .URL }}">{{ .Name }}</a>
+            </li>
+            {{ end }}
+        </ul>
+    </nav>
+</header> 

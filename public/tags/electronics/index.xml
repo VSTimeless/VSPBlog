@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Electronics on Volodymyr | EE Student &amp; Tech Enthusiast</title>
+    <link>http://localhost:1313/tags/electronics/</link>
+    <description>Recent content in Electronics on Volodymyr | EE Student &amp; Tech Enthusiast</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 10 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/electronics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduction to Embedded Systems</title>
+      <link>http://localhost:1313/blog/introduction-to-embedded-systems/</link>
+      <pubDate>Tue, 10 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/introduction-to-embedded-systems/</guid>
+      <description>&lt;h1 id=&#34;introduction-to-embedded-systems&#34;&gt;Introduction to Embedded Systems&lt;/h1&gt;&#xA;&lt;p&gt;Embedded systems are specialized computing systems that are designed to perform dedicated functions within a larger system. Unlike general-purpose computers, embedded systems are designed to perform specific tasks with real-time computing constraints.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-makes-embedded-systems-unique&#34;&gt;What Makes Embedded Systems Unique?&lt;/h2&gt;&#xA;&lt;p&gt;Embedded systems are characterized by several key features:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Task-Specific Design&lt;/strong&gt;: They&amp;rsquo;re built to perform a specific function rather than being general-purpose machines&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Real-Time Constraints&lt;/strong&gt;: Many embedded systems must respond to events within strict time limits&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Resource Constraints&lt;/strong&gt;: They typically have limited memory, processing power, and energy availability&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Long-Term Reliability&lt;/strong&gt;: Many are designed to run continuously for years without failure&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;common-applications&#34;&gt;Common Applications&lt;/h2&gt;&#xA;&lt;p&gt;Embedded systems are everywhere in our daily lives:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

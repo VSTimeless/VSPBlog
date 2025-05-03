@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Home Monitoring System | Volodymyr | EE Student &amp; Tech Enthusiast</title>
+    <meta name="description" content="Personal website of Volodymyr, an Electrical Engineering student with a passion for technology and innovation.">
+    
+    
+    <link rel="icon" type="image/png" href="/images/favicon.png">
+    
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+    
+    
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/main.css">
+    
+    
+    
+     
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <a href="/" class="logo">Volodymyr</a>
+                <div class="menu">
+                    <a href="/about/">About</a>
+                    <a href="/projects/">Projects</a>
+                    <a href="/blog/">Blog</a>
+                    <a href="/interests/">Interests</a>
+                    <a href="/contact/">Contact</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            
+<article class="single-content">
+    <h1>Smart Home Monitoring System</h1>
+    
+    
+    
+    
+    <div class="project-meta">
+        
+        <div class="project-tech-stack">
+            <strong>Technologies:</strong>
+            
+            <span class="tech-tag">Arduino</span>
+            
+            <span class="tech-tag">ESP32</span>
+            
+            <span class="tech-tag">MQTT</span>
+            
+            <span class="tech-tag">Node.js</span>
+            
+            <span class="tech-tag">React</span>
+            
+        </div>
+        
+        
+        
+        <div class="project-links">
+            <a href="https://github.com/volodymyr/smart-home-monitoring" target="_blank" rel="noopener" class="btn btn-secondary">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                GitHub Repository
+            </a>
+            
+            
+            <a href="https://smart-home-demo.example.com" target="_blank" rel="noopener" class="btn btn-primary">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                Live Demo
+            </a>
+            
+        </div>
+        
+    </div>
+    
+    
+    
+    <img src="/images/projects/smart-home.jpg" alt="Smart Home Monitoring System" class="featured-image">
+    
+    
+    <div class="content">
+        <h1 id="smart-home-monitoring-system">Smart Home Monitoring System</h1>
+<h2 id="overview">Overview</h2>
+<p>This project is a comprehensive smart home monitoring system that allows users to track temperature, humidity, motion, and energy usage throughout their home. The system uses a network of IoT sensors connected to a central hub, with data visualization through a web dashboard.</p>
+<h2 id="features">Features</h2>
+<ul>
+<li><strong>Multi-sensor Integration</strong>: Collects data from temperature, humidity, motion, and power consumption sensors.</li>
+<li><strong>Real-time Monitoring</strong>: View current conditions in your home from anywhere.</li>
+<li><strong>Historical Data</strong>: Track patterns and trends over time with stored historical data.</li>
+<li><strong>Alerts and Notifications</strong>: Receive alerts when readings exceed defined thresholds.</li>
+<li><strong>Energy Optimization</strong>: Analyze energy usage patterns to identify potential savings.</li>
+</ul>
+<h2 id="technical-details">Technical Details</h2>
+<h3 id="hardware-components">Hardware Components</h3>
+<ul>
+<li><strong>Sensors</strong>: DHT22 (temperature/humidity), PIR (motion), and current sensors</li>
+<li><strong>Microcontrollers</strong>: ESP32 modules for wireless communication</li>
+<li><strong>Central Hub</strong>: Raspberry Pi 4 running Node.js server</li>
+</ul>
+<h3 id="software-stack">Software Stack</h3>
+<ul>
+<li><strong>Backend</strong>: Node.js with Express, MongoDB for data storage</li>
+<li><strong>Communication</strong>: MQTT protocol for device communication</li>
+<li><strong>Frontend</strong>: React.js dashboard with Chart.js for data visualization</li>
+<li><strong>Authentication</strong>: JWT-based authentication system</li>
+</ul>
+<h2 id="development-process">Development Process</h2>
+<p>The development involved several key phases:</p>
+<ol>
+<li><strong>Research and Planning</strong>: Identifying requirements and selecting appropriate components.</li>
+<li><strong>Prototyping</strong>: Building and testing individual sensor modules.</li>
+<li><strong>Integration</strong>: Creating the central system and communication protocols.</li>
+<li><strong>Dashboard Development</strong>: Designing and implementing the user interface.</li>
+<li><strong>Testing and Optimization</strong>: Ensuring reliability and optimizing performance.</li>
+</ol>
+<h2 id="challenges-and-solutions">Challenges and Solutions</h2>
+<p>One significant challenge was ensuring reliable wireless communication in different home environments. I addressed this by implementing a mesh network using ESP-NOW, which allowed devices to relay messages even when direct connection to the hub wasn&rsquo;t possible.</p>
+<p>Power management was another hurdle, especially for battery-operated sensors. I implemented deep sleep modes and optimized wake cycles to extend battery life without compromising data collection frequency.</p>
+<h2 id="results">Results</h2>
+<p>The system successfully achieves continuous monitoring with minimal power consumption. During testing, it maintained 99.7% uptime and accurately reported environmental changes within seconds of occurrence. Battery-operated sensors achieve approximately 6 months of operation before requiring recharging.</p>
+<h2 id="future-improvements">Future Improvements</h2>
+<p>I plan to enhance the system with:</p>
+<ul>
+<li>Machine learning for predictive analytics and anomaly detection</li>
+<li>Integration with voice assistants (Google Home, Alexa)</li>
+<li>Expanded sensor types (air quality, water leak detection)</li>
+<li>Mobile application development</li>
+</ul>
+<p>This project demonstrates the practical application of IoT technology to create a useful home monitoring solution that balances functionality, reliability, and efficiency.</p>
+
+    </div>
+    
+    
+</article>
+
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Volodymyr</p>
+        </div>
+    </footer>
+    
+    
+    <script src="/js/main.js"></script>
+</body>
+</html> 
